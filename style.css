@@ -1,0 +1,377 @@
+
+*{
+margin: 0px;
+padding: 0px;
+}
+body{
+
+font-family: 'Baloo Bhaina 2', cursive;
+}
+.section{
+display: flex;
+}
+.head{ 
+height: 27px;
+
+background-color: rgba(123, 249, 253, 0.432);
+}   
+
+.dropdown{
+width: 1100px;
+position: relative;
+top: -20px;
+left: 20px;
+}
+
+.dropdown ul li  {
+
+float: left;
+
+
+position: relative;
+left: -3%;
+top: 45px;
+padding: 0px;
+width: 233px;
+height: 35px;
+
+line-height: 50px;
+list-style: none;
+font-weight: bold;
+text-align: center;
+font-size: 21px;
+
+
+}
+.rightside{
+position: relative;
+width: 120%;
+left: 350%;
+top: -266px;
+}
+img{
+width: 127%;
+top: 12%;
+left: 342%;
+position: absolute;
+z-index: -1;
+}
+.dropdown ul li ul{
+display: none;
+position: relative;
+left: 2px;
+top: 0px;
+
+}
+.dropdown ul li:hover>ul{
+display: block;
+top: -60px;
+
+
+}
+.dropdown ul li:hover{
+
+font-family: cursive;
+
+}
+.dropdown ul li a{
+color: rgb(0, 0, 0);
+text-decoration: none;
+}
+
+
+#welcome{border-radius: 5px;
+left: 4px;
+height: 40px;
+text-align: center;
+color: white;
+position: relative;
+top: 19px;
+width: 26%;
+animation: front 2s linear infinite;
+animation-direction: alternate;
+background-color: #937ce7;
+}
+@keyframes front{
+from{ padding-left: 40px;}
+to{padding-right: 40px;}
+
+}
+#welcome h2{
+padding-top: 4px;
+
+}
+
+.left{
+width: 17%;
+position: relative;
+top: 40px;
+background-color: rgba(123, 249, 253, 0.432);
+height: 488px;
+border-radius: 8px;
+margin-left: 10px;  
+}
+.left h3{
+font-size: 40px;
+text-transform: uppercase;
+margin-bottom: 20px;
+position: relative;
+top: 40px;
+left: 110px;
+}
+.left h3::after{
+content: "";
+width: 300px;
+height: 3px;
+position: absolute;
+top: 52%;
+left: 51%;
+background: rgb(0, 0, 0);
+}
+h1{
+
+font-size: 70px;
+margin-top: 20px;
+position: relative;
+margin-bottom: 25px;
+width: 220%;
+top: -20px;
+left: 47%;
+
+
+}
+.left h2{
+font-weight: lighter;
+width: 220%;
+position: relative;
+left:47%;
+top: -89px;
+}
+.button {
+position: relative;
+
+width: 120%;
+}
+.button #btn1,#btn2{
+text-decoration: none;
+color: black;
+position: relative;
+background-color: white;
+border-radius: 7px;
+border: 2px solid #937ce7;
+left: 30%;
+font-size: 20px;
+width: 130px;
+height: 49px;
+left: 97px;
+margin-right: 5px;
+box-shadow:0px 0px 5px 0px grey; 
+}
+.button #btn1:hover{
+background-color:#937ce7 ;
+color: white;
+
+}
+
+main{
+height: 400px;
+}
+
+#iconbar{
+color: grey;
+font-size: 3rem;
+cursor: pointer;
+margin: 12px;
+opacity: 0;
+visibility: hidden;
+}
+
+#iconbar:hover{
+color: #937ce7;
+}
+/*Media querries Starts here*/
+
+@media (max-width:450px){
+.head{ 
+height: 37px;
+width: 100%px;
+}   
+#welcome{
+width: 75%;
+ 
+position: absolute;
+top: 43px;
+}
+
+.dropdown{
+width: 100%;
+text-align: left;
+top: -20px;
+
+left: 0px;
+}
+.dropdown.responsive{
+ width: 100%!important;
+ height: 80vh!important;
+ z-index: 2;
+}
+
+.dropdown.responsive ul{
+ opacity: 1;
+z-index: 2;
+visibility: visible;
+}
+.dropdown.responsive ul li{
+display: block;
+flex: none;
+font-size: 3rem;
+text-align: center;
+padding: 32px;
+width: 338px;
+background-color: rgb(26, 247, 144) ;
+height: 55px;
+position: relative;
+top: 82px; 
+width: 370px; 
+}
+
+.dropdown.responsive ul li ul a{
+font-size: 32px;
+
+color: white;
+}
+
+
+  
+.dropdown ul{
+opacity: 0;
+visibility:hidden;
+}
+#iconbar{
+visibility: visible;
+opacity: 1;
+left: 386px;
+top: 25px;
+position: absolute;
+z-index: 4;
+margin: 0px;
+}
+
+img {
+width: 70%;
+z-index: 1;
+position: relative;
+top: -563px;
+left: 37px;
+}
+.left{
+width: 92%;
+height: 50%;
+top: 213px;
+border-radius: 22px;
+border: 2px solid;
+}
+
+.button {
+position: relative;
+left: -26px;
+}
+
+h1{
+font-size: 41px;
+margin-top: 20px;
+position: relative;
+margin-bottom: 41px;
+width: 69%;
+top: -1px;
+left: 17%;
+
+}
+.left h3{
+font-size: 29px;
+text-transform: uppercase;
+margin-bottom: 20px;
+position: relative;
+top: 40px;
+left: 75px;
+}
+.left h3::after {
+width: 182px;
+left: 22%;
+
+}
+
+.left h2 {
+
+width: 78%;
+left: 19%;
+top: -40px;
+font-size: 18px;
+}
+
+}
+
+@media (max-width:360px){
+.head{ 
+height: 37px;
+width: 380px;
+}   
+
+#iconbar{
+left: 340px;
+top: 25px;
+
+}
+
+img {
+width: 75%;
+top: -563px;
+left: 37px;
+}
+.left{
+width: 100%;
+height: 50%;
+top: 213px;
+
+}
+
+.button {
+position: relative;
+left: -44px;
+}
+
+h1{
+font-size: 37px;
+margin-top: 20px;
+position: relative;
+margin-bottom: 41px;
+width: 69%;
+top: 20px;
+left: 17%;
+
+}
+.left h3{
+font-size: 29px;
+text-transform: uppercase;
+margin-bottom: 20px;
+position: relative;
+top: 40px;
+left: 55px;
+}
+.left h3::after {
+width: 142px;
+left: 25%;
+
+}
+
+.left h2 {
+
+width: 78%;
+left: 19%;
+top: -30px;
+font-size: 18px;
+}
+
+}
+
+

@@ -1,0 +1,507 @@
+
+  *{
+    margin: 0px ;
+    padding: 0px;
+    }
+    body{
+       background-image: url(https://images.pexels.com/photos/220182/pexels-photo-220182.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+        font-family: 'Baloo Bhaina 2', cursive;
+   }
+    div{
+        
+        width: 100%;        
+        display: flex;
+         flex-wrap: wrap;
+        justify-content: center;
+            
+    
+    }
+    div video{
+        width: 20%;
+        border-radius: 15px;
+        position: relative;
+        margin-top: 38px;
+        margin-bottom: 22px;
+        left: 333px;  
+        box-shadow:0px 0px 10px 3px;; 
+    }
+    #iframe{
+        position: relative;
+        box-shadow:0px 0px 10px 3px;
+        top: 20px;
+        border-radius: 11px;
+        width:243px;
+        margin-top: 22px;
+        margin-bottom: 22px;
+        left: 12px;
+        height:159px;
+    }
+    div p{
+        position: relative;
+        top: 180px;
+        left: -233px;
+        font-size: 18px;
+        font-weight: bold;
+        margin-top: 19px;
+        height: 0;
+    }
+    #h1{
+      height: 23px;
+      position: relative;
+      margin-top: 12px;
+      
+      padding-bottom: 19px;
+      top: 12px;
+      
+      background-color: rgba(255, 255, 255, 0.699);
+    }
+    .img{
+        display: flex;
+        z-index: -1;
+        justify-content: space-evenly;
+    }
+    .img img{
+        box-shadow:2px 2px 11px 4px;
+
+    }
+    .img h1{
+        position: relative;
+        top: 145px;
+        background-color: rgb(240, 114, 12);
+        height: 52px;
+        left: -40px;
+        border: 2px solid rgb(207, 19, 19);
+        border-radius: 11px;
+        
+    }
+    .img h1 a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    #heading{
+        position: relative;
+        top: 245px;
+        background-color: rgb(240, 114, 12);
+        height: 52px;
+        left: -372px;
+        border: 2px solid rgb(207, 19, 19);
+        border-radius: 11px;
+    }
+    #heading a{
+      text-emphasis: none;
+      color: white;
+    }
+
+    #head{
+        position: relative;
+        top: -105px;
+        background-color: rgb(240, 114, 12);
+        height: 52px;
+        left: 115px;
+        border: 2px solid rgb(207, 19, 19);
+        border-radius: 11px;
+    
+    } 
+    #head a{
+        text-emphasis: none;
+        color: white;
+      }
+
+    .dropdown{
+        width: 70%;
+        position: relative;
+        top: -20px;
+        left: 133px;
+        padding-bottom: 32px;
+        
+    }
+    
+    .dropdown ul li  {
+        background-color: rgb(233, 188, 41);
+        float: left;
+         
+        border-radius: 3px;
+        position: relative;
+        left: -3%;
+        top: 45px;
+        padding: 0px;
+        width: 233px;
+        height: 35px;
+        opacity: 1;
+        line-height: 50px;
+        list-style: none;
+        font-weight: bold;
+        text-align: center;
+        font-size: 21px;
+         
+        
+    }
+    .dropdown ul li ul{
+        display: none;
+       position: relative;
+        left: 7px;
+        top: 0px;
+    }
+    .dropdown ul li:hover>ul{
+        display: block;
+         top: -60px;
+         
+    
+    }
+    .dropdown ul li:hover{
+        
+        font-family: cursive;
+        
+    }
+    .dropdown ul li a{
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+    }
+     
+    @media (max-width:450px){
+     
+        .dropdown {
+            width: 496px;
+            position: sticky;
+            top: 0px;
+            z-index: 15;
+            left: 0px;
+            display: flex;
+            padding-bottom: 9px;
+        }
+        .dropdown ul li:hover>ul{
+        display: block;
+         top: -20px;
+         
+    
+    }
+        .dropdown ul li {
+            left: 0%;
+            top: 4px;
+            padding: 0px;
+            width: 124px;
+            height: 45px;
+            line-height: 56px;
+            list-style: none;
+            font-weight: bold;
+            font-size: 15px;
+        }
+    
+        .dropdown ul li a{
+            font-size: 12px;
+        }
+    
+        img{
+            width: 100%;
+            position: relative;
+            left: 13px;
+            height: 400px;
+    
+        }
+
+         
+            .img h1 {
+                position: relative;
+                top: 18px;
+                width: 169px;
+                z-index: 3; 
+                height: 22px;
+                left:16px;
+                
+            }
+            .img h1 a {
+                
+                 
+                font-size: 18px;
+                top: -22px;
+                position: relative;
+            }
+            #heading {
+                position: relative;
+                top: 17px;
+                height: 21px;
+                left: 17px;
+                z-index: 3;
+            }
+            #head {
+                 top: 32px;
+                height: 22px;
+                left: 1px;
+                z-index: 3;
+            }
+            #iframe{
+             width: 407px;
+             height:207px;
+             z-index: 3;
+            }
+            
+            div p {
+                
+                top: -20px;
+                left: -56px;
+                font-size: 20px;
+                margin-top: 22px;
+                height: 9px;
+                z-index: 3;
+            }
+            div video {
+                width: 88%;
+                z-index: 3;
+                left: 22px;
+                
+            }
+            #h1{
+                left: 15px;
+            }
+        }
+        @media (max-width:358px){
+     
+            .dropdown {
+                width: 139%;
+               
+            }
+            .dropdown ul li {
+                left: 0%;
+        }
+        
+        .dropdown ul li:hover>ul{
+        display: block;
+         top: -20px;
+         
+    
+    }
+
+            .dropdown ul li a{
+                font-size: 12px;
+            }
+        
+            img{
+                width: 125%;
+                 
+            }
+    
+              .img h1 {
+                    position: relative;
+                    top: 26px;
+                    width: 184px;
+                    z-index: 3; 
+                    height: 16px;
+                    left:183px;
+                    
+                }
+                .img h1 a {
+                    font-size: 18px;
+                    top: -23px;
+                    left: 10px;
+                }
+                #heading {
+                     
+                    top: 6px;
+                    height: 17px;
+                    left: -47px;
+                     
+                }
+                #head {
+                     top: 20px;
+                    height: 18px;
+                    left: 76px;
+                    
+                }
+                #iframe{
+                 width: 362px;
+                 height:214px;
+                 left: 39px;
+                }
+                
+                div p {
+                    
+                    top: -22px;
+                    left: -13px;
+                    font-size: 29px;
+                    margin-top: 22px;
+                    height: 9px;
+                    z-index: 3;
+                }
+                div video {
+                    width: 101%;
+                    z-index: 3;
+                    left: 39px;
+                }
+             #h1{
+                 width: 469px;
+             }
+        }
+        @media (max-width:450px){
+     
+            .dropdown {
+                width: 496px;
+                position: sticky;
+                top: 0px;
+                z-index: 15;
+                left: 0px;
+                display: flex;
+                padding-bottom: 9px;
+            }
+            .dropdown ul li:hover>ul{
+            display: block;
+             top: -20px;
+             
+        
+        }
+            .dropdown ul li {
+                left: 0%;
+                top: 4px;
+                padding: 0px;
+                width: 124px;
+                height: 45px;
+                line-height: 56px;
+                list-style: none;
+                font-weight: bold;
+                font-size: 15px;
+            }
+        
+            .dropdown ul li a{
+                font-size: 12px;
+            }
+        
+            img{
+                width: 100%;
+                position: relative;
+                left: 13px;
+                height: 400px;
+        
+            }
+    
+             
+                .img h1 {
+                    position: relative;
+                    top: 18px;
+                    width: 169px;
+                    z-index: 3; 
+                    height: 22px;
+                    left:16px;
+                    
+                }
+                .img h1 a {
+                    
+                     
+                    font-size: 18px;
+                    top: -22px;
+                    position: relative;
+                }
+                #heading {
+                    position: relative;
+                    top: 17px;
+                    height: 21px;
+                    left: 17px;
+                    z-index: 3;
+                }
+                #head {
+                     top: 32px;
+                    height: 22px;
+                    left: 1px;
+                    z-index: 3;
+                }
+                #iframe{
+                 width: 407px;
+                 height:207px;
+                 z-index: 3;
+                }
+                
+                div p {
+                    
+                    top: -20px;
+                    left: -56px;
+                    font-size: 20px;
+                    margin-top: 22px;
+                    height: 9px;
+                    z-index: 3;
+                }
+                div video {
+                    width: 88%;
+                    z-index: 3;
+                    left: 22px;
+                    
+                }
+                #h1{
+                    left: 15px;
+                }
+            }
+            @media (max-width:358px){
+         
+                .dropdown {
+                    width: 139%;
+                   
+                }
+                .dropdown ul li {
+                    left: 0%;
+            }
+            
+            .dropdown ul li:hover>ul{
+            display: block;
+             top: -20px;
+             
+        
+        }
+    
+                .dropdown ul li a{
+                    font-size: 12px;
+                }
+            
+                img{
+                    width: 125%;
+                     
+                }
+        
+                  .img h1 {
+                        position: relative;
+                        top: 26px;
+                        width: 184px;
+                        z-index: 3; 
+                        height: 16px;
+                        left:183px;
+                        
+                    }
+                    .img h1 a {
+                        font-size: 18px;
+                        top: -23px;
+                        left: 10px;
+                    }
+                    #heading {
+                         
+                        top: 6px;
+                        height: 17px;
+                        left: -47px;
+                         
+                    }
+                    #head {
+                         top: 20px;
+                        height: 18px;
+                        left: 76px;
+                        
+                    }
+                    #iframe{
+                     width: 362px;
+                     height:214px;
+                     left: 39px;
+                    }
+                    
+                    div p {
+                        
+                        top: -22px;
+                        left: -13px;
+                        font-size: 29px;
+                        margin-top: 22px;
+                        height: 9px;
+                        z-index: 3;
+                    }
+                    div video {
+                        width: 101%;
+                        z-index: 3;
+                        left: 39px;
+                    }
+                 #h1{
+                     width: 469px;
+                 }
+            }
